@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  vrc:
+    build: .
+    image: vrc:latest
+    container_name: vehicle-registration-center
+    ports:
+      - "8090:8090"
