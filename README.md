@@ -4,6 +4,12 @@
    git clone https://github.com/HananAlhajri/Dummy-Integration.git
 ```
 
+## Run The Application
+
+```bash
+   docker compose up -d --build
+```
+
 ## API Documentation
 
 ### Swagger
